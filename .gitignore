@@ -3,3 +3,6 @@
 *.log
 candidates/**/raw/*
 candidates/**/attachments/*
+# generated outputs
+outputs/
+candidates/**/outputs/
