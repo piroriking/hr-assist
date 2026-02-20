@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-CAND_DIR="${1:?例: candidates/2026-0001_sample}"
+CAND_DIR="${1:?例: candidates/2026-0002_tanaka}"
 mkdir -p "${CAND_DIR}/outputs"
 
 codex exec "Read ${CAND_DIR}/interview.md and prompts/summary.md. Write to ${CAND_DIR}/outputs/summary.md"
